@@ -7,8 +7,8 @@ Select * from Person.Password
 
 
 
-
--- select 2 highest ID in list  (Without Max in main query )
+------------------Interview Importants------------------------------------------------------------------------------
+-- select 2 highest ID in list  (Without Max in main query ) 
 
 select top 1 BusinessEntityID from Person.Password where BusinessEntityID < (select Max (BusinessEntityID) from Person.Password) order by BusinessEntityID desc
 
@@ -16,7 +16,7 @@ select top 1 BusinessEntityID from Person.Password where BusinessEntityID < (sel
 
 select Max(BusinessEntityID) from Person.Password where BusinessEntityID < (select Max (BusinessEntityID) from Person.Password) 
 
-
+------------------------------------------------------------------------
 
 select * from [Person].[Person]
 -- Creating a table from existing data in another table
