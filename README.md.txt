@@ -1,11 +1,1 @@
-please do not delete
-+
-+abcdegd
-hi hello git people
-please try banching for Git 
-
-
-abcdegd
-
-
-aslmfklamsdkfmklsadmfkmsd
+a = INSERT INTO Person.Person(BusinessEntityID,PersonType,NameStyle,Title      ,FirstName           ,MiddleName           ,LastName           ,Suffix           ,EmailPromotion           ,AdditionalContactInfo           ,Demographics           ,rowguid           ,ModifiedDate)     VALUES           (12345           ,EN           ,0           ,Mr.           ,Bhushan           ,Ashokrao           ,Bende           ,NULL           ,2           ,NULL           ,NUll           ,aklsdjflkjasiddijfjiewi2343           ,getdate())
